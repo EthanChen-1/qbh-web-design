@@ -8,6 +8,13 @@
       content="Queensboro Hill Web Design's home page for their website. It showcases a portfolio of other businesses that they've worked with"
     />
     <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.css"
+      integrity="sha512-DKdRaC0QGJ/kjx0U0TtJNCamKnN4l+wsMdION3GG0WVK6hIoJ1UPHRHeXNiGsXdrmq19JJxgIubb/Z7Og2qJww=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -91,12 +98,17 @@
           <h2 class="portfolio-heading">Our Portfolio</h2>
           <div class="portfolio-grid">
             <div class="portfolio-item">
-              <img
-                src="./public/mausbert_reviews_homepage.png"
-                alt="Displays the home page of Mausbert Reviews"
-                width="50px"
-                height="50px"
-              />
+              <a
+                href="./public/mausbert_reviews_homepage.png"
+                data-lightbox="image-1"
+                data-title="Mausbert Reviews"
+                ><img
+                  src="./public/mausbert_reviews_homepage.png"
+                  alt="Displays the home page of Mausbert Reviews"
+                  width="50px"
+                  height="50px"
+              /></a>
+
               <h3>Mausbert Reviews</h3>
               <p>
                 A website that showcases videos and rankings from the Youtuber
@@ -104,12 +116,16 @@
               </p>
             </div>
             <div class="portfolio-item">
-              <img
-                src="./public/deadlock_tracker_heroes.png"
-                alt="Displays the hero list page of Deadlock Tracker"
-                width="50px"
-                height="50px"
-              />
+              <a
+                href="./public/deadlock_tracker_heroes.png"
+                data-lightbox="image-2"
+                data-title="Deadlock Tracker"
+                ><img
+                  src="./public/deadlock_tracker_heroes.png"
+                  alt="Displays the hero list page of Deadlock Tracker"
+                  width="50px"
+                  height="50px"
+              /></a>
               <h3>Deadlock Tracker</h3>
               <p>
                 A website that showcases guides and details on the heroes of the
@@ -124,5 +140,17 @@
       </footer>
     </div>
     <script defer src="./index.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.min.js"
+      integrity="sha512-KbRFbjA5bwNan6DvPl1ODUolvTTZ/vckssnFhka5cG80JVa5zSlRPCr055xSgU/q6oMIGhZWLhcbgIC0fyw3RQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </body>
 </html>
