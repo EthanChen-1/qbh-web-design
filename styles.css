@@ -329,6 +329,12 @@ body {
   font-weight: 300;
 }
 
+.about-bio-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 .contact {
   padding: 3rem 0rem 4rem;
 }
