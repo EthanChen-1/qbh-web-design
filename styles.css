@@ -25,7 +25,7 @@ body {
 }
 
 .logo-link {
-  display: flex;
+  display: none;
   flex-direction: column;
   font-weight: 800;
   text-decoration: none;
@@ -151,7 +151,7 @@ body {
 }
 
 .hero {
-  height: 30vh;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -396,9 +396,21 @@ body {
   .contact p {
     font-size: 1.2rem;
   }
+
+  .hero {
+    height: 500px;
+  }
 }
 
 @media (min-width: 48rem) {
+  .small-logo-link {
+    display: none;
+  }
+
+  .logo-link {
+    display: flex;
+  }
+
   .nav-bar {
     display: block;
   }
