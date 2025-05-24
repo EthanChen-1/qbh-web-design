@@ -211,6 +211,7 @@ body {
 .portfolio-item p {
   font-weight: 300;
   margin: 0;
+  font-size: 0.9rem;
 }
 
 .services {
@@ -430,7 +431,9 @@ body {
 
 @media (min-width: 64rem) {
   .portfolio-grid {
-    grid-template-columns: calc(33% - 20px) calc(33% - 20px) calc(33% - 20px);
+    grid-template-columns: calc(25% - 20px) calc(25% - 20px) calc(25% - 20px) calc(
+        25% - 20px
+      );
   }
   .services-grid {
     grid-template-columns: calc(33% - 20px) calc(33% - 20px) calc(33% - 20px);
